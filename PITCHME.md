@@ -26,6 +26,8 @@
 - タイトルシーン
 - ゲームオーバーシーン
 
+---
+
 #### お借りした物・利用したアセット
 - SampleShooting_Material
 - Explosive Toon VFX Texture Free
