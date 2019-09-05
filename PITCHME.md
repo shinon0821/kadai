@@ -67,5 +67,5 @@ public class RockGenerator : MonoBehaviour
 [夏の霧](https://amachamusic.chagasi.com/music_natsunokiri.html)   
 [夏休みの探検](https://amachamusic.chagasi.com/music_natsuyasuminotanken.html)
 ---
-:---:以上です。
+- :---: 以上です。
 ありがとうございました。
