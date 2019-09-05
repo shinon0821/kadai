@@ -30,9 +30,7 @@ Web GL
 public class RockGenerator : MonoBehaviour
 {
     public GameObject rockPrefab;
-
     float count,time;
-    
     void GenRock()
     {
         Instantiate(rockPrefab, new Vector3(-2.5f + 5 * Random.value, 6, 0), Quaternion.identity);
