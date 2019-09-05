@@ -25,7 +25,7 @@ Web GL
 オリジナル要素
 - シーン追加
 - 岩生成の変更
-@2
++++
 ```cs
 public class RockGenerator : MonoBehaviour
 {
