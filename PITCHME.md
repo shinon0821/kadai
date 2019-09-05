@@ -25,7 +25,29 @@ Web GL
 オリジナル要素
 - シーン追加
 - 岩生成の変更
+```cs
+public class RockGenerator : MonoBehaviour
+{
+    public GameObject rockPrefab;
 
+    float count,time;
+    
+    void GenRock()
+    {
+        Instantiate(rockPrefab, new Vector3(-2.5f + 5 * Random.value, 6, 0), Quaternion.identity);
+    }
+    private void FixedUpdate()
+    {
+        count -= Time.fixedDeltaTime;
+        if(count<0)
+        {
+            GenRock();
+            time = time-0.01f;
+            count = time;
+        }
+    }
+}
+```
 ---
 
 #### 参考元
