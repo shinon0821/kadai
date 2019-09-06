@@ -13,8 +13,8 @@
 スペースキーで発射
    
 #### 開発環境
-Unity2019 1.5f
-Web GL
+Unity2019 1.5f    
+Web GL    
 960x600pixel
     
 #### ルール
