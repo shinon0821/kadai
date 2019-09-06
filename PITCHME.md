@@ -17,14 +17,14 @@ Unity2019 1.5f
 Web GL    
 960x600pixel
 
-  ---  
+---  
   
 #### ルール
 岩を壊してどれくらいスコアを稼げるか    
     
 オリジナル要素
 - シーン追加
-- 岩生成の変更
+- 岩生成の変更    
 +++
 ```cs
 public class RockGenerator : MonoBehaviour
